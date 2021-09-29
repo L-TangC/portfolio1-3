@@ -601,6 +601,9 @@ a{
     }
 }
 @media (max-width:376px){
+	.uiux_content .portfolio-work{
+	background-image:url(../image/uiux/portfolio_ios.png);
+	}
     .uiux_content .mask a{
         clip-path: polygon(0 0, 100% 30%,100% 100%, 0 70%);
     }
