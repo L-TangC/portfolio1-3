@@ -534,11 +534,9 @@ a{
     height: 800px;
     background-image:url(../image/uiux/moodapp.jpg);
     background-attachment: scroll;
-    background-position: center;
+    background-position: left top;
     background-size: cover;
     clip-path: polygon(0 0, 100% 10%,100% 100%, 0 90%);
-    position:absolute;
-    top:975px;
 }
 .uiux_content .yueda-web{
     width: 100%;
