@@ -518,13 +518,13 @@ a{
 /*UIUX page start*/
 .uiux_content{
     height:2800px;
+	background-attachment: scroll;
 }
 .uiux_content .portfolio-work{
     width: 100%;
     height: 800px;
     background-image:url(../image/uiux/portfolio.png);
-    background-attachment: scroll;
-    background position:left top;
+    background position:center;
     background-size: cover;
     clip-path: polygon(0 0, 100% 10%,100% 100%, 0 90%);
 }
@@ -533,18 +533,17 @@ a{
     width: 100%;
     height: 800px;
     background-image:url(../image/uiux/moodapp.jpg);
-    background-attachment: scroll;
-    background-position: left top;
+    background-position: center;
     background-size: cover;
     clip-path: polygon(0 0, 100% 10%,100% 100%, 0 90%);
+	position:absolute;
+    top:975px;
 }
 .uiux_content .yueda-web{
     width: 100%;
     height: 800px;
     background-image:url(../image/uiux/yueda1.png);
-    background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(0 0, 100% 10%,100% 100%, 0 90%);
     position:absolute;
