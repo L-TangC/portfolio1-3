@@ -8,19 +8,19 @@ $(document).ready(function () {
         $('.contact').fadeOut(200);
     });
 });
-$(window).scroll(function() {
+$(document).scroll(function() {
   var scrolledY = $(window).scrollTop();
   $('.portfolio-work').css('background-position', 'left ' + ((scrolledY)) + 'px');
 });
-$(window).scroll(function() {
+$(document).scroll(function() {
   var scrolledY = $(window).scrollTop();
   $('.moodapp').css('background-position', 'left ' + ((scrolledY)) + 'px');
 });
-$(window).scroll(function() {
+$(document).scroll(function() {
     var scrolledY = $(window).scrollTop();
     $('.yueda-web').css('background-position', 'left ' + ((scrolledY)) + 'px');
   });
-$(window).scroll(function() {
+$(document).scroll(function() {
   var scrolledY = $(window).scrollTop();
   $('.podcast').css('background-position', 'left ' + ((scrolledY)) + 'px');
 });
