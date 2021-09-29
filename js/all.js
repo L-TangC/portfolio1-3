@@ -16,3 +16,7 @@ $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
   $('.moodapp').css('background-position', 'left ' + ((scrolledY)) + 'px');
 });
+$(window).scroll(function() {
+    var scrolledY = $(window).scrollTop();
+    $('.yueda-web').css('background-position', 'left ' + ((scrolledY)) + 'px');
+  });
